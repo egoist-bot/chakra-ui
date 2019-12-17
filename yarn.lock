@@ -1604,6 +1604,28 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@chakra-ui/core@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/core/-/core-0.5.1.tgz#0153c42f3cec421b0eeabdcea8e83b7016920151"
+  integrity sha512-dua4Bm60RCfzeU32coxUaT+pT4ebxlva0VsqZK60NIEBbz7FyobuHjCp7Qdv98G5WdBnkmgjntyZXRICo/hp4A==
+  dependencies:
+    "@reach/auto-id" "0.2.0"
+    "@styled-system/css" "5.0.13"
+    "@styled-system/should-forward-prop" "5.0.12"
+    "@types/styled-system" "5.0.1"
+    aria-hidden "^1.1.1"
+    body-scroll-lock "^2.6.4"
+    color "3.1.2"
+    exenv "^1.2.2"
+    popper.js "^1.15.0"
+    pretty-num "0.3.0"
+    react-animate-height "2.0.9"
+    react-focus-lock "2.1.0"
+    react-spring "^8.0.27"
+    styled-system "5.0.5"
+    toasted-notes "3.0.0"
+    use-dark-mode "2.3.1"
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.3.tgz#099139eaec7ebf07a27c1786a3ff64f39464d2ef"
@@ -9537,7 +9559,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-focus-lock@^0.6.3, focus-lock@^0.6.6:
+focus-lock@^0.6.3, focus-lock@^0.6.5, focus-lock@^0.6.6:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/focus-lock/-/focus-lock-0.6.6.tgz#98119a755a38cfdbeda0280eaa77e307eee850c7"
   integrity sha512-Dx69IXGCq1qsUExWuG+5wkiMqVM/zGx/reXSJSLogECwp3x6KeNQZ+NAetgxEFpnC41rD8U3+jRCW68+LNzdtw==
@@ -9874,6 +9896,11 @@ gatsby-page-utils@^0.0.27:
     lodash "^4.17.15"
     micromatch "^3.1.10"
     slash "^3.0.0"
+
+gatsby-plugin-chakra-ui@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-chakra-ui/-/gatsby-plugin-chakra-ui-0.1.1.tgz#a0cd7e486be3e87331b988c38cb0a4819a9ff4ab"
+  integrity sha512-0KxVKlzU9avyDl3NqD4sUNsu3eahRU+EOOBKXYopS4pzsIyp/gyCNjhfFjXKtoCwE8DdntdJwf345iwdTHUHMg==
 
 gatsby-plugin-page-creator@^2.1.14:
   version "2.1.27"
@@ -16439,6 +16466,17 @@ react-fast-compare@^2.0.1, react-fast-compare@^2.0.4:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
+react-focus-lock@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-focus-lock/-/react-focus-lock-2.1.0.tgz#afe5c8c01109641ffc81bd150f3f2ff7d7411902"
+  integrity sha512-+9SIClb2CNmpr2rMeWXMDGbXCXSL+R+nU5MLdjMK8FRQRqwjBUhAR2+AFALURFQ4crHsvwQbGbCrVb5JCiWkHA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    focus-lock "^0.6.5"
+    prop-types "^15.6.2"
+    react-clientside-effect "^1.2.2"
+    use-sidecar "^1.0.1"
 
 react-focus-lock@^1.18.3:
   version "1.19.1"

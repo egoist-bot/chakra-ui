@@ -1,5 +1,5 @@
 import React from "react";
-import { ThemeProvider, ColorModeProvider, CSSReset } from "@chakra-ui/core";
+import { ThemeProvider, ColorModeProvider, CSSReset } from "@egoist/chakra-ui";
 import theme from "./theme";
 
 export const wrapRootElement = (

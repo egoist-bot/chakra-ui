@@ -15,7 +15,7 @@
     "build-storybook": "build-storybook -c .storybook",
     "docs": "yarn workspace @chakra-ui/docs dev",
     "docs:now": "cd packages/chakra-ui-docs && now",
-    "core:build": "yarn workspace @chakra-ui/core build",
+    "core:build": "yarn workspace @egoist/chakra-ui build",
     "release": "lerna publish",
     "lint": "yarn workspace @chakra-ui/core eslint src",
     "tslint": "tslint -c tslint.json '**/*/src/**/*.ts'",
